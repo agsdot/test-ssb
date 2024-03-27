@@ -4,7 +4,7 @@ title = "Your Site Title"
 #theme = "your-hugo-theme-name"
 
 [params]
-  author = "Your Name"
+  author = "Jonathan"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
