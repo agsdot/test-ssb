@@ -18,3 +18,5 @@ title = "Your Site Title"
 
 [build]
   publishDir = "public"
+
+theme = "beautifulhugo"
