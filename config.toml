@@ -1,0 +1,20 @@
+baseURL = "https://agsdot.github.io/test_ssb/"
+languageCode = "en-us"
+title = "Your Site Title"
+#theme = "your-hugo-theme-name"
+
+[params]
+  author = "Your Name"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+
+[outputFormats]
+  [outputFormats.HTML]
+    mediaType = "text/html"
+
+[permalinks]
+  post = "/:year/:month/:day/:title/"
+
+[build]
+  publishDir = "public"
